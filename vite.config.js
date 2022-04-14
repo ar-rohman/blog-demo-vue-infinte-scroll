@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
     plugins: [vue()],
-    base: process.env.NODE_ENV === 'production' ? '/blog-demo-vue-infinte-scroll' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/blog-demo-vue-infinte-scroll/' : '/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
